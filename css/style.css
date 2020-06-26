@@ -1,0 +1,28 @@
+body{
+  background-color:rgba(76, 135, 202, 0.87);
+}
+
+.titulo{
+  font-size: 40px;
+  text-align: center;
+  font-family: monospace;
+  color: white;
+}
+.formulario{
+  background: white;
+  border-radius: 10px;
+  padding:  15px;
+  width: 300px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+}
+#city{
+  padding: 5px 5px;
+}
+button{
+  padding: 5px 5px;
+  font-size: 12px;
+}
+.resultado{
+
+}
