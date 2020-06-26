@@ -5,7 +5,7 @@ var cidade = cidade.value;
 console.log(cidade);
 function buscarPrevisao() {
     
- fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${chave}`, {
+ fetch("https://api.openweathermap.org/data/2.5/weather?q="+cidade+"&appid="+chave+"&lang=pt-br", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
