@@ -1,11 +1,11 @@
 var cidade = document.getElementById('cidade');
 const chave = "1e88f70422cf39e04785fea7cec7c376";
-//var local = window.localStorage;
+
 var cidade = cidade.value;
 console.log(cidade);
 function buscarPrevisao() {
     
- fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&appid=${chave}`, {
+ fetch("https://api.openweathermap.org/data/2.5/weather?q="+cidade+"&appid="+chave+"", {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "community-open-weather-map.p.rapidapi.com",
