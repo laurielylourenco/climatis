@@ -9,3 +9,9 @@
 * Css,Html
 * JavaScript
 * API [OneWeather](https://openweathermap.org/api)
+* Fetch Api
+
+
+## Objetivos com projeto
+
+ Aprender manipular dados de terceiros é melhorar meu conhecimento na liguagem JS.
