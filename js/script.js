@@ -1,5 +1,5 @@
 var cidade = document.getElementById('cidade');
-const chave = "1e88f70422cf39e04785fea7cec7c376";
+const chave = "cole sua chave aqui";
 var res = document.getElementById('resultado')
 
 function buscarPrevisao() {
@@ -7,7 +7,6 @@ function buscarPrevisao() {
     var linguagem = "pt-br";
     var unidade = "metric";
     var url = "https://api.openweathermap.org/data/2.5/weather?q=" + c + "&appid=" + chave + "&lang=" + linguagem + "&units=" + unidade + "";
-
 
     fetch(url, {
             method: "GET",
@@ -30,4 +29,12 @@ function buscarPrevisao() {
         .catch(error => {
             console.log(error);
         });
+}
+function mostrarPrevisao(dados){
+
+    document.getElementById('des').innerHTML = dados.weather[0].description;
+    document.getElementById('min').innerHTML = dados.main.temp_min;
+    document.getElementById('max').innerHTML = dados.main.temp_max;
+    document.getElementById('local').innerHTML = dados.name;
+    //dados quero descricao, max e min,local.
 }

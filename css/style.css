@@ -27,4 +27,8 @@ button {
   font-size: 12px;
 }
 
-.resultado {}
+.resultado {
+
+  text-align: center;
+  margin: auto;
+}
