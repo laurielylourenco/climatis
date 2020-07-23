@@ -1,5 +1,5 @@
 var cidade = document.getElementById('cidade');
-const chave = "cole sua chave aqui";
+const chave = "1e88f70422cf39e04785fea7cec7c376";
 var res = document.getElementById('resultado')
 
 function buscarPrevisao() {
@@ -34,7 +34,7 @@ function mostrarPrevisao(dados){
 
     document.getElementById('des').innerHTML = dados.weather[0].description;
     document.getElementById('min').innerHTML = dados.main.temp_min;
-    document.getElementById('max').innerHTML = dados.main.temp_max;
+    //document.getElementById('max').innerHTML = dados.main.temp_max;
     document.getElementById('local').innerHTML = dados.name;
     //dados quero descricao, max e min,local.
 }
