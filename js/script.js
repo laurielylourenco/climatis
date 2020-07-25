@@ -13,7 +13,6 @@ function buscarPrevisao() {
         })
         .then(response => {
             if (response.ok) {
-                console.log(response.url)
                 return response.json()
             } else {
                 return Promise.reject({
@@ -23,8 +22,8 @@ function buscarPrevisao() {
             }
 
         })
-        .then(function (data) {
-            console.log(data)
+        .then(function(data) {
+            mostrarPrevisao(data)
         })
         .catch(error => {
             console.log(error);
@@ -34,7 +33,7 @@ function mostrarPrevisao(dados){
 
     document.getElementById('des').innerHTML = dados.weather[0].description;
     document.getElementById('min').innerHTML = dados.main.temp_min;
-    //document.getElementById('max').innerHTML = dados.main.temp_max;
+   
     document.getElementById('local').innerHTML = dados.name;
     //dados quero descricao, max e min,local.
 }
