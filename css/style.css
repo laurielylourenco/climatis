@@ -9,24 +9,28 @@ body {
   color: white;
 }
 
+.form{
+  margin: auto;
+  padding: 30px;
+}
 .formulario {
   background: white;
   border-radius: 10px;
   padding: 15px;
-  width: 300px;
+  width: 400px;
   margin: auto;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.432);
 }
-
-#city {
-  padding: 5px 5px;
+button{
+  height: 35px;
 }
-
-button {
-  padding: 5px 5px;
-  font-size: 12px;
+#cidade {
+  padding: 10px 30px;
 }
+#result{
+  text-align: center;
 
+}
 .resultado {
 
   text-align: center;

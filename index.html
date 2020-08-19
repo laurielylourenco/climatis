@@ -16,22 +16,26 @@
         <h1 class="titulo">Previsão do tempo</h1>
     </div>
 
-    <section class="formulario" >
-     
-      <input type="text" id="cidade" name="cidade" placeholder="Digite nome da cidade"> 
-      <button id="buscar" onclick="buscarPrevisao()">Buscar</button>
-   
+    <div class="form" id="form">
 
-    </section>
+        <section class="formulario">
+           
+            <input type="text" id="cidade" name="cidade" placeholder="Digite nome da cidade">
+            <button id="buscar" onclick="buscarPrevisao()">Buscar</button>
 
-    <section class="resultado">
-        <p id="des"></p>
-        <div>
-            <h1 id="min"></h1>
-        </div>
-       
-        <p id="local"></p>
-</section>
+
+        </section>
+
+        <section class="resultado" id="result">
+            <div id="vazia"></div>
+            <p id="des"></p>
+            <div>
+                <h1 id="min"></h1>
+            </div>
+
+            <p id="local"></p>
+        </section>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
