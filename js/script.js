@@ -1,5 +1,5 @@
 var cidade = document.getElementById('cidade');
-const chave = "1e88f70422cf39e04785fea7cec7c376";
+const chave = "";
 var res = document.getElementById('resultado')
 //
 if (chave == '') {
