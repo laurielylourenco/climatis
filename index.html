@@ -7,37 +7,47 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Clima</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" ></script>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+             
 </head>
 
-<body id="corpo">
-    <div>
-        <h1 class="titulo">Previsão do tempo</h1>
+<body  class="container" id="corpo">
+    <div class="row col s12">
+        <div class="center ">
+            <h1 class="titulo ">Previsão do tempo</h1>
+            <img class="" src="assests/img/undraw_Weather_app_re_kcb1.svg" width="100px" height="100px" alt="Previsão">
+        </div>
     </div>
+
 
     <div class="form" id="form">
 
-        <section class="formulario">
-           
-            <input type="text" id="cidade" name="cidade" placeholder="Digite nome da cidade">
-            <button id="buscar" onclick="buscarPrevisao()">Buscar</button>
-
-
+        <section class="formulario row">     
+                <div class="col s10">
+                    <input type="text" id="cidade" name="cidade" placeholder="Digite nome da cidade">
+                    <button class="waves-effect waves-light btn" id="buscar" onclick="buscarPrevisao()">Buscar</button>
+                </div>
         </section>
 
-        <section class="resultado" id="result">
-            <div id="vazia"></div>
-            <p id="des"></p>
-            <div>
-                <h1 id="min"></h1>
-            </div>
-
-            <p id="local"></p>
+        <section class="resultado row" id="result"> 
+            <div class="center">   
+                <p id="des"></p>
+                <h3 id="min"></h3>
+                <p id="local"></p>
+             </div>  
         </section>
+
+
+        
     </div>
 
     <script src="js/script.js"></script>
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
-
 </html>

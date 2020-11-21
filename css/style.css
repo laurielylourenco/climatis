@@ -1,5 +1,8 @@
 body {
-  background-color: rgba(76, 135, 202, 0.87);
+  background: #83a4d4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 .titulo {
@@ -9,21 +12,16 @@ body {
   color: white;
 }
 
-.form{
-  margin: auto;
-  padding: 30px;
-}
+
 .formulario {
   background: white;
   border-radius: 10px;
   padding: 15px;
-  width: 400px;
+  width: 500px;
   margin: auto;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.432);
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.432);
 }
-button{
-  height: 35px;
-}
+
 #cidade {
   padding: 10px 30px;
 }
@@ -35,4 +33,7 @@ button{
 
   text-align: center;
   margin: auto;
+}
+.contaneir{
+ column-width: auto;
 }
