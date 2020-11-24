@@ -7,7 +7,7 @@
 * API [OneWeather](https://openweathermap.org/api)
 * Fetch Api
 
-**para rodar projeto necessario ter uma chave da api, voce consegue facilmente no site da api depois insira no codigo**
+** Para testar projeto busque uma chave na API OneWeather
 ## Objetivos com projeto
 
  Aprender manipular dados de terceiros é melhorar meu conhecimento na liguagem JS.
