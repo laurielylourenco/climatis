@@ -1,4 +1,4 @@
-# Previsao-Tempo-JavasScript
+## Clima
  Obter a temperatura, condições climáticas de uma cidade.
 
 ## O que esta sendo usado projeto?
