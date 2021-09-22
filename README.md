@@ -11,3 +11,6 @@
 ## Objetivos com projeto
 
  Aprender manipular dados de terceiros é melhorar meu conhecimento na liguagem JS.
+ 
+ Link para projeto: https://laurielylourenco.github.io/clima.github.io/
+ 
