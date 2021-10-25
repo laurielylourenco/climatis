@@ -1,11 +1,11 @@
 ## Clima
- Obter a temperatura, condições climáticas de uma cidade.
+ Busca a temperatura de uma cidade 
 
 ## O que esta sendo usado projeto?
-* Css,Html
+* Css,HTML
 * JavaScript
 * API [OneWeather](https://openweathermap.org/api)
-* Fetch Api
+
 
 ** Para testar projeto busque uma chave na API OneWeather
 ## Objetivos com projeto
