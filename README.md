@@ -2,7 +2,7 @@
  Busca a temperatura de uma cidade 
 
 ## O que esta sendo usado projeto?
-* Css,HTML
+* Bootstrap 4.1.0
 * JavaScript
 * API [OneWeather](https://openweathermap.org/api)
 
