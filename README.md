@@ -1,6 +1,6 @@
 ## Clima
  Busca a temperatura de uma cidade 
-
+Refazendo o projeto
 ## O que esta sendo usado projeto?
 * Bootstrap 4.1.0
 * JavaScript
