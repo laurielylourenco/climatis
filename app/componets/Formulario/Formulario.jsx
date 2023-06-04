@@ -1,4 +1,5 @@
 import { React, useState } from 'react';
+import { WiCloud } from "react-icons/wi";
 import './Formulario.css';
 
 
@@ -16,10 +17,17 @@ const Formulario = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        var teste = getData(cidade)
-        teste
-            .then(t => setTemperatura(t))
-            .catch(erro => alert("Ocorreu um erro na chamada da API"))
+
+        if(cidade){
+            var teste = getData(cidade)
+            teste
+                .then(t => setTemperatura(t))
+                .catch(erro => alert("Ocorreu um erro na chamada da API"))
+        } else{
+
+            alert("Campo vazio!!!")
+        }
+
     };
 
 
@@ -28,7 +36,9 @@ const Formulario = () => {
 
         var c = cidade;
         var linguagem = "pt_br";
-        const chave = process.env.NEXT_PUBLIC_KEY;
+        const chave = process.env.NEXT_PUBLIC_API_KEY;
+
+        console.log('chave:  ',chave)
 
         var url = "https://api.openweathermap.org/data/2.5/weather?q=" + c + "&units=metric" + "&appid=" + chave + "&lang=" + linguagem + "";
 
@@ -47,12 +57,19 @@ const Formulario = () => {
         <div className="corpo container">
 
             <div className="panel box">
+
+                <div className="img_tempo">
+                 <h1><WiCloud> </WiCloud></h1>
+                </div>
+
+
                 <form onSubmit={handleSubmit}>
 
                     <input
                         type="text"
                         value={cidade}
                         onChange={handleChange}
+                        placeholder='Digite nome da cidade'
                     />
 
 
