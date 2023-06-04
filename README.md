@@ -1,16 +1,19 @@
-## Clima
- Busca a temperatura de uma cidade 
-Refazendo o projeto
-## O que esta sendo usado projeto?
-* Bootstrap 4.1.0
-* JavaScript
-* API [OneWeather](https://openweathermap.org/api)
+
+# Climatis
+
+ Site de busca de temperatura 
 
 
-** Para testar projeto busque uma chave na API OneWeather
-## Objetivos com projeto
+## Aprendizados
 
- Aprender manipular dados de terceiros é melhorar meu conhecimento na liguagem JS.
- 
- Link para projeto: https://laurielylourenco.github.io/clima.github.io/
- 
+Este projeto inicial tem como objetivo aprimorar minha habilidade de manipular dados de terceiros e expandir meu conhecimento em JavaScript. Atualmente, estou focado em aprender um novo framework JavaScript e estou utilizando este projeto simples como uma base para compreender os conceitos fundamentais do Next.js. Além disso, estou explorando a configuração do ambiente na plataforma Vercel, aprendendo a parametrizar variáveis de ambiente para uma melhor gestão das configurações do projeto.
+## Stack utilizada
+
+**Front-end:** Next.js,CSS
+
+**Back-end:** API [OneWeather](https://openweathermap.org/api)
+
+## Demonstração
+
+https://climatis.vercel.app/
+
