@@ -2,3 +2,6 @@ css.txt
 bkp
 node_modules
 .next
+
+.env
+.env.local

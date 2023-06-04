@@ -78,3 +78,8 @@ form {
     flex-direction: column;
 
 }
+
+.respostaTempo{
+    align-items: center;
+    text-align: center;
+}
